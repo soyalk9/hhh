@@ -1,0 +1,23 @@
+<?php
+return [
+    'db_host' => 'localhost',
+    'db_user' => 'root',
+    'db_pass' => '',
+    'db_name' => 'devbuzz',
+    'hestia_user' => 'devbuzz',
+    'sudo_path' => '/usr/bin/sudo',
+    'hestia_bin' => '/usr/local/hestia/bin/',
+    'base_url' => 'https://devbuzz.online',
+    'db_charset' => 'utf8mb4',
+    'smtp_host' => 'localhost',
+    'smtp_port' => 587,
+    'smtp_user' => '',
+    'smtp_pass' => '',
+    'smtp_secure' => 'tls',
+    'mail_from' => 'noreply@devbuzz.online',
+    'mail_from_name' => 'DevBuzz Panel',
+    'app_name' => 'DevBuzz Panel',
+    'debug' => true,
+    'timezone' => 'Asia/Kolkata',
+    'session_lifetime' => 7200,
+];
