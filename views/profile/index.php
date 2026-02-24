@@ -1,0 +1,3 @@
+<h2 class="text-xl font-bold mb-2">Profile</h2>
+<div class="bg-white dark:bg-gray-800 p-4 rounded mb-3">Name: <?= e($user['name']) ?><br>Email: <?= e($user['email']) ?></div>
+<form method="post" class="bg-white dark:bg-gray-800 p-4 rounded space-y-2"><input type="hidden" name="_csrf" value="<?= csrf_token() ?>"><input type="password" name="current_password" class="w-full border p-2" placeholder="Current password" required><input type="password" name="new_password" class="w-full border p-2" placeholder="New password" required><button class="bg-indigo-600 text-white px-3 py-1">Change Password</button></form>
